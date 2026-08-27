@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#050505">
+  <title>Copy Sync — Sites que transformam cliques em clientes</title>
+  <meta name="description" content="Sites estratégicos, rápidos e persuasivos para transformar visitantes em clientes pagantes.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Copy Sync — Sites que transformam cliques em clientes">
+  <meta property="og:description" content="Estratégia, copy e design para transformar visitantes em clientes pagantes.">
+  <meta property="og:url" content="__SITE_URL__/">
+  <meta property="og:image" content="__SITE_URL__/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Copy Sync — Sites que transformam cliques em clientes">
+  <meta name="twitter:description" content="Estratégia, copy e design para transformar visitantes em clientes pagantes.">
+  <meta name="twitter:image" content="__SITE_URL__/og.png">
+  <link rel="canonical" href="__SITE_URL__/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box}
+    *{margin:0}
+    :root{--ink:#050505;--paper:#f3f2ef;--white:#fff;--muted:#9a9a9a;--line:rgba(255,255,255,.12);--red:#ff3b2f;--red2:#ff6047;--green:#42ec75;--ease:cubic-bezier(.2,.8,.2,1)}
+    html{scroll-behavior:smooth}
+    body{background:var(--ink);color:var(--white);font-family:"DM Sans",Arial,sans-serif;line-height:1.5;overflow-x:hidden}
+    a{color:inherit}
+    button,a{-webkit-tap-highlight-color:transparent}
+    .shell{width:min(1180px,calc(100% - 40px));margin-inline:auto}
+    .nav-wrap{position:absolute;z-index:50;inset:20px 0 auto}
+    .nav{height:68px;border:1px solid rgba(255,255,255,.16);border-radius:999px;background:rgba(10,10,10,.72);backdrop-filter:blur(18px);display:flex;align-items:center;justify-content:space-between;padding:0 14px 0 24px;box-shadow:0 14px 40px rgba(0,0,0,.22)}
+    .brand{display:flex;align-items:center;gap:10px;text-decoration:none;font:800 1.08rem/1 "Manrope",sans-serif;letter-spacing:-.04em}
+    .brand-mark{width:28px;height:28px;border-radius:8px;background:linear-gradient(145deg,var(--red2),#9c0903);display:grid;place-items:center;box-shadow:inset 0 1px 1px rgba(255,255,255,.25),0 0 24px rgba(255,59,47,.18);transform:rotate(-8deg)}
+    .brand-mark::before{content:"C";transform:rotate(8deg);font-size:.78rem}
+    .nav-links{display:flex;align-items:center;gap:26px}
+    .nav-links a{text-decoration:none;color:#bbb;font-size:.86rem;transition:color .2s}
+    .nav-links a:hover{color:#fff}
+    .nav-cta,.button{border:0;text-decoration:none;background:var(--red);color:white;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;gap:10px;font-weight:700;transition:transform .25s var(--ease),box-shadow .25s,background .25s}
+    .nav-cta{padding:12px 19px;font-size:.82rem}
+    .button{padding:17px 27px;font-size:.94rem;box-shadow:0 10px 30px rgba(255,59,47,.18)}
+    .button::after{content:"\2197";width:25px;height:25px;border-radius:50%;background:rgba(0,0,0,.16);display:grid;place-items:center;font-size:.8rem}
+    .nav-cta:hover,.button:hover{transform:translateY(-2px);background:#ff5045;box-shadow:0 14px 36px rgba(255,59,47,.32)}
+    .hero{min-height:100svh;position:relative;display:grid;align-items:center;padding:140px 0 78px;isolation:isolate;overflow:hidden}
+    .hero::before{content:"";position:absolute;z-index:-2;width:760px;height:760px;right:-190px;top:-180px;background:radial-gradient(circle,rgba(255,59,47,.16),transparent 66%);filter:blur(10px)}
+    .hero::after{content:"";position:absolute;z-index:-2;inset:0;background:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:76px 76px;mask-image:linear-gradient(to bottom,black,transparent 78%)}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(360px,.88fr);gap:68px;align-items:center}
+    .trust{display:inline-flex;align-items:center;gap:11px;border:1px solid var(--line);border-radius:999px;padding:6px 13px 6px 7px;color:#c8c8c8;font-size:.76rem;background:rgba(255,255,255,.03)}
+    .faces{display:flex}
+    .face{width:25px;height:25px;margin-left:-6px;border:2px solid #111;border-radius:50%;display:grid;place-items:center;background:#333;font-size:.58rem;font-weight:700}
+    .face:first-child{margin-left:0;background:#eee;color:#111}.face:nth-child(2){background:#737373}.face:nth-child(3){background:#c3c3c3;color:#111}
+    .pulse{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 0 5px rgba(66,236,117,.08)}
+    h1,h2,h3{font-family:"Manrope",Arial,sans-serif;letter-spacing:-.055em}
+    h1{font-size:clamp(3.2rem,6vw,6.25rem);line-height:.95;margin:31px 0 28px;max-width:800px;font-weight:700}
+    h1 em{color:var(--red);font-style:normal;position:relative;white-space:nowrap}
+    h1 em::after{content:"";position:absolute;height:8px;background:var(--red);border-radius:999px;left:1%;right:0;bottom:-3px;transform:rotate(-1deg) scaleX(.92);opacity:.35}
+    .hero-copy>p{max-width:650px;color:#a6a6a6;font-size:clamp(1rem,1.4vw,1.16rem);line-height:1.65}
+    .hero-copy strong{color:#fff}
+    .hero-actions{display:flex;align-items:center;gap:18px;margin-top:34px}
+    .micro{color:#777;font-size:.76rem;max-width:190px}
+    .stage{min-height:520px;position:relative;perspective:1400px;display:grid;place-items:center}
+    .stage-orbit{position:absolute;width:430px;height:430px;border:1px solid rgba(255,255,255,.08);border-radius:50%;animation:spin 24s linear infinite}
+    .stage-orbit::before,.stage-orbit::after{content:"";position:absolute;border-radius:50%;background:var(--red);box-shadow:0 0 25px rgba(255,59,47,.55)}
+    .stage-orbit::before{width:9px;height:9px;top:42px;left:58px}.stage-orbit::after{width:6px;height:6px;bottom:38px;right:80px}
+    .site-card{width:min(100%,390px);aspect-ratio:.79;border:1px solid rgba(255,255,255,.15);border-radius:24px;background:linear-gradient(145deg,#1b1b1b,#090909 74%);box-shadow:0 45px 100px rgba(0,0,0,.68),inset 0 1px 0 rgba(255,255,255,.08);padding:14px;transform:rotateY(-11deg) rotateX(7deg) rotateZ(2deg);animation:float 6s ease-in-out infinite;position:relative;z-index:2}
+    .site-screen{height:100%;border-radius:15px;background:#f3f2ef;color:#111;overflow:hidden;position:relative;padding:14px}
+    .screen-nav{display:flex;justify-content:space-between;align-items:center;font-size:.46rem;font-weight:700}.screen-logo{display:flex;gap:5px;align-items:center}.screen-logo i{display:block;width:12px;height:12px;border-radius:4px;background:var(--red)}
+    .screen-pill{width:48px;height:14px;border-radius:20px;background:#111}
+    .screen-hero{text-align:center;padding:38px 8px 23px}.screen-kicker{font-size:.43rem;background:white;border-radius:20px;display:inline-block;padding:4px 8px}.screen-title{font:800 1.62rem/.95 "Manrope";letter-spacing:-.07em;margin:13px auto 10px;max-width:255px}.screen-title span{color:var(--red)}.screen-text{font-size:.5rem;color:#777;max-width:210px;margin:auto}.screen-button{display:inline-block;background:var(--red);color:white;border-radius:20px;font-size:.46rem;font-weight:700;padding:7px 13px;margin-top:13px}
+    .screen-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:8px}.screen-box{border-radius:12px;background:#111;color:white;min-height:122px;padding:12px;position:relative;overflow:hidden}.screen-box.light{background:white;color:#111}.screen-box small{font-size:.42rem}.screen-box b{display:block;font:700 1.15rem "Manrope";margin-top:28px}.screen-chart{height:47px;display:flex;align-items:end;gap:5px;margin-top:16px}.screen-chart i{width:12px;border-radius:4px 4px 0 0;background:#e3e3e3}.screen-chart i:nth-child(1){height:28%}.screen-chart i:nth-child(2){height:50%}.screen-chart i:nth-child(3){height:72%}.screen-chart i:nth-child(4){height:100%;background:var(--red)}
+    .float-chip{position:absolute;z-index:5;border:1px solid rgba(255,255,255,.16);background:rgba(25,25,25,.82);backdrop-filter:blur(12px);padding:12px 15px;border-radius:13px;box-shadow:0 18px 50px rgba(0,0,0,.38);font-size:.72rem;animation:float 5s ease-in-out infinite reverse}
+    .float-chip strong{display:block;font:700 1.14rem "Manrope";letter-spacing:-.04em;color:white}.float-chip span{color:#929292;font-size:.63rem}.chip-a{left:-8px;top:26%}.chip-b{right:-10px;bottom:19%;animation-delay:-1.7s}.chip-b strong{color:var(--green)}
+    .proofbar{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#090909;overflow:hidden}
+    .proofgrid{display:grid;grid-template-columns:1.2fr repeat(3,1fr);align-items:stretch}
+    .proof-item{padding:24px 28px;border-left:1px solid var(--line);display:flex;flex-direction:column;justify-content:center;gap:13px;min-height:112px}.proof-intro{border-left:0;padding-left:0;color:#7f7f7f;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase}.proof-copy{display:flex;align-items:baseline;justify-content:space-between;gap:14px}.proof-item b{font:700 clamp(1.25rem,2vw,1.75rem) "Manrope";letter-spacing:-.055em;white-space:nowrap}.proof-label{font-size:.7rem;color:#777;line-height:1.25;text-align:right;max-width:104px}.progress-track{height:5px;width:100%;border-radius:999px;background:#212121;overflow:hidden;position:relative}.progress-fill{display:block;width:var(--fill);height:100%;border-radius:inherit;background:linear-gradient(90deg,#d92319,var(--red2));box-shadow:0 0 20px rgba(255,59,47,.3);transform:scaleX(0);transform-origin:left;transition:transform 1.15s var(--ease) var(--delay)}.progress-fill::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,.6),transparent);transform:translateX(-110%)}.proofbar.is-visible .progress-fill{transform:scaleX(1)}.proofbar.is-visible .progress-fill::after{animation:bar-shine .85s var(--ease) calc(var(--delay) + .55s) both}.proof-urgent .proof-label{display:flex;flex-direction:column;align-items:flex-end;gap:5px;max-width:126px}.proof-alert{display:inline-flex;align-items:center;gap:6px;color:#ff6258;font-size:.58rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}.proof-alert::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--red2);box-shadow:0 0 0 0 rgba(255,59,47,.55);animation:slot-pulse 1.5s ease-out infinite}.proof-urgent .progress-fill{background:linear-gradient(90deg,#dc2117 0%,#ff3b2f 72%,#ff786f 100%);box-shadow:0 0 24px rgba(255,59,47,.5)}
+    .pain{background:var(--paper);color:#111;padding:130px 0}
+    .eyebrow{display:inline-flex;gap:9px;align-items:center;font-size:.72rem;text-transform:uppercase;letter-spacing:.16em;font-weight:700}.eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--red)}
+    .pain-head{display:grid;grid-template-columns:1fr .72fr;gap:80px;align-items:end;margin:22px 0 64px}.pain h2{font-size:clamp(2.5rem,5vw,5.2rem);line-height:.97;font-weight:700}.pain-head p{color:#6f6f6f;font-size:1.02rem;line-height:1.65;padding-bottom:8px}
+    .pain-list{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;list-style:none;padding:0;counter-reset:pain}
+    .pain-list li{counter-increment:pain;background:#fff;border-radius:18px;padding:22px 20px 24px;min-height:330px;border:1px solid rgba(0,0,0,.06);display:flex;flex-direction:column;position:relative;overflow:hidden;transition:transform .25s var(--ease),box-shadow .25s,border-color .25s}
+    .pain-list li:hover{transform:translateY(-6px);box-shadow:0 22px 42px rgba(0,0,0,.08);border-color:rgba(255,59,47,.18)}
+    .pain-list li::before{content:"0" counter(pain);font:700 .78rem "Manrope";color:var(--red);position:relative;z-index:3}
+    .pain-copy{font-size:.84rem;line-height:1.5;color:#6a6a6a;position:relative;z-index:3}.pain-copy strong{color:#111}
+    .pain-visual{height:118px;flex:none;position:relative;margin:17px 0 24px;border-radius:14px;overflow:hidden;background:linear-gradient(145deg,#f5f4f1,#ebe9e5);border:1px solid rgba(0,0,0,.055);transition:transform .35s var(--ease),background .35s}.pain-list li:hover .pain-visual{transform:translateY(-4px) scale(1.015);background:linear-gradient(145deg,#f8f7f4,#ebe8e3)}
+    .pain-search::before{content:"";position:absolute;width:72%;height:56%;left:14%;top:21%;border:2px solid #181818;border-radius:10px;background:linear-gradient(#181818 0 13px,transparent 13px),repeating-linear-gradient(0deg,transparent 0 8px,#d5d3ce 8px 11px,transparent 11px 18px);box-shadow:0 12px 25px rgba(0,0,0,.09)}.pain-search::after{content:"";position:absolute;width:30px;height:30px;border:5px solid var(--red);border-radius:50%;left:52%;top:39%;background:#f5f4f1;box-shadow:0 0 0 5px rgba(255,59,47,.09)}.pain-search i{position:absolute;z-index:2;width:29px;height:5px;border-radius:999px;background:var(--red);left:68%;top:68%;transform:rotate(42deg);transform-origin:left center}
+    .pain-broken::before{content:"";position:absolute;width:48px;height:88px;left:50%;top:14px;transform:translateX(-50%) rotate(-4deg);border:3px solid #171717;border-radius:11px;background:linear-gradient(145deg,#fff,#d7d5d0);box-shadow:0 11px 24px rgba(0,0,0,.12),inset 0 -7px 0 #171717}.pain-broken::after{content:"!";position:absolute;right:20px;top:18px;width:33px;height:33px;border-radius:50%;background:var(--red);color:white;display:grid;place-items:center;font:800 1rem "Manrope";box-shadow:0 9px 18px rgba(255,59,47,.24)}.pain-broken i{position:absolute;z-index:2;left:50%;top:31px;width:2px;height:52px;background:var(--red);transform:rotate(25deg)}.pain-broken i::before,.pain-broken i::after{content:"";position:absolute;width:22px;height:2px;background:var(--red);left:-4px}.pain-broken i::before{top:15px;transform:rotate(-48deg)}.pain-broken i::after{top:33px;transform:rotate(38deg)}
+    .pain-social::before{content:"\2665";position:absolute;left:20px;top:19px;width:46px;height:40px;border-radius:13px 13px 13px 4px;background:var(--red);color:white;display:grid;place-items:center;font-size:1.15rem;box-shadow:0 10px 20px rgba(255,59,47,.22)}.pain-social::after{content:"";position:absolute;right:18px;top:25px;width:88px;height:58px;border-radius:10px;background:linear-gradient(#171717,#171717) 12px 13px/64px 4px no-repeat,linear-gradient(90deg,var(--red) 0 18%,#c9c7c2 18% 100%) 12px 39px/64px 6px no-repeat,#fff;box-shadow:0 10px 24px rgba(0,0,0,.1)}.pain-social i{position:absolute;z-index:2;left:23px;bottom:16px;color:#171717;font:800 1.05rem "Manrope";font-style:normal}.pain-social i::before{content:"VENDAS ";color:#888;font-size:.52rem;letter-spacing:.1em}
+    .pain-compare::before,.pain-compare::after{content:"";position:absolute;top:22px;width:60px;height:76px;border-radius:10px;box-shadow:0 12px 24px rgba(0,0,0,.12)}.pain-compare::before{left:25px;background:repeating-linear-gradient(0deg,#d6d4cf 0 6px,transparent 6px 13px),#f9f9f7;transform:rotate(-7deg);border:1px solid #d9d7d2}.pain-compare::after{right:24px;background:linear-gradient(var(--red) 0 9px,transparent 9px),repeating-linear-gradient(0deg,#343434 0 6px,transparent 6px 13px),#151515;transform:rotate(6deg);border:1px solid #151515}.pain-compare i{position:absolute;z-index:2;left:50%;top:46px;transform:translateX(-50%);width:34px;height:34px;border-radius:50%;background:var(--red);color:white;font:800 1.15rem/34px "Manrope";font-style:normal;text-align:center;box-shadow:0 8px 18px rgba(255,59,47,.25)}
+    .pain-money::before{content:"";position:absolute;left:21px;bottom:20px;width:105px;height:67px;border-radius:13px;background:#171717;box-shadow:0 12px 25px rgba(0,0,0,.14)}.pain-money::after{content:"R$";position:absolute;right:27px;top:18px;width:39px;height:39px;border-radius:50%;background:var(--red);color:white;display:grid;place-items:center;font:800 .7rem "Manrope";box-shadow:0 11px 20px rgba(255,59,47,.25)}.pain-money i{position:absolute;z-index:2;right:38px;top:59px;width:27px;height:27px;border-radius:50%;background:#fff;border:2px solid #171717;box-shadow:-19px 22px 0 -2px #fff,-19px 22px 0 0 #171717;transform:rotate(10deg)}.pain-money i::after{content:"\2193";position:absolute;left:6px;top:2px;color:var(--red);font:800 .9rem "Manrope"}
+    .section-dark{background:#050505;color:white;padding:138px 0;position:relative;overflow:hidden}
+    .section-dark::before{content:"";position:absolute;width:700px;height:700px;border-radius:50%;background:radial-gradient(circle,rgba(255,59,47,.1),transparent 67%);right:-350px;top:8%;pointer-events:none}
+    .section-heading{display:grid;grid-template-columns:1fr .65fr;gap:80px;align-items:end;margin:24px 0 62px}
+    .section-heading h2,.portfolio-head h2,.process-head h2,.bonus h2,.closing h2{font-size:clamp(2.7rem,5.3vw,5.5rem);line-height:.96;font-weight:700}
+    .section-heading p{color:#8d8d8d;max-width:510px;line-height:1.7}
+    .section-heading strong{color:white}
+    .bento{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+    .service-card{grid-column:span 4;min-height:320px;border:1px solid rgba(255,255,255,.1);border-radius:22px;background:linear-gradient(145deg,#191919,#0d0d0d);padding:26px;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;transition:transform .3s var(--ease),border-color .3s}
+    .service-card:hover{transform:translateY(-6px);border-color:rgba(255,59,47,.45)}
+    .service-card.wide{grid-column:span 8}
+    .service-card.red-card{background:linear-gradient(145deg,#ff554a,#d71d13);border-color:transparent}
+    .service-top{display:flex;justify-content:space-between;align-items:center}.service-index{font:700 .72rem "Manrope";letter-spacing:.14em;color:#777}.red-card .service-index{color:rgba(255,255,255,.7)}
+    .service-symbol{width:48px;height:48px;border-radius:50%;border:1px solid rgba(255,255,255,.14);display:grid;place-items:center;font-size:1.25rem}.red-card .service-symbol{background:#111;border:0}
+    .service-card h3{font-size:1.65rem;line-height:1.05;margin-bottom:12px}.service-card p{color:#898989;font-size:.89rem;line-height:1.58;max-width:460px}.red-card p{color:rgba(255,255,255,.8)}
+    .mini-browser{position:absolute;width:54%;right:28px;bottom:27px;border:1px solid rgba(255,255,255,.13);background:#050505;border-radius:12px;padding:9px;transform:rotate(-3deg);box-shadow:0 24px 45px rgba(0,0,0,.3)}
+    .mini-browser-top{height:10px;border-bottom:1px solid #222;display:flex;gap:3px}.mini-browser-top i{width:3px;height:3px;border-radius:50%;background:#555}.mini-browser-body{padding:13px 7px 5px}.mini-line{height:6px;background:#262626;border-radius:5px;margin-bottom:5px}.mini-line.redline{background:var(--red);width:68%}.mini-cols{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-top:9px}.mini-cols i{height:27px;border-radius:5px;background:#161616}
+    .score-ring{width:106px;height:106px;border-radius:50%;background:conic-gradient(var(--green) 0 98%,#282828 98%);display:grid;place-items:center;margin:14px 0}.score-ring::before{content:"98";width:86px;height:86px;border-radius:50%;background:#111;display:grid;place-items:center;font:700 2rem "Manrope"}
+    .delivery-visual{display:flex;align-items:end;gap:7px;height:88px;margin-bottom:12px}.delivery-visual i{width:24px;border-radius:6px 6px 2px 2px;background:rgba(255,255,255,.22)}.delivery-visual i:nth-child(1){height:26%}.delivery-visual i:nth-child(2){height:45%}.delivery-visual i:nth-child(3){height:66%}.delivery-visual i:nth-child(4){height:100%;background:#111}
+    .portfolio{background:#0a0a0a;padding:138px 0;color:white}
+    .portfolio-head{text-align:center;max-width:850px;margin:0 auto 65px}.portfolio-head .eyebrow{margin-bottom:24px}.portfolio-head p{max-width:660px;color:#8b8b8b;margin:23px auto 0;line-height:1.68}
+    .project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .project-card{display:block;background:#171717;color:inherit;text-decoration:none;border:1px solid rgba(255,255,255,.08);border-radius:22px;overflow:hidden;transition:transform .35s var(--ease),box-shadow .35s,border-color .35s;transform-style:preserve-3d}.project-card:hover{transform:translateY(-8px) rotateX(1deg);box-shadow:0 30px 70px rgba(0,0,0,.4);border-color:rgba(255,59,47,.42)}.project-card:focus-visible{outline:3px solid var(--red);outline-offset:4px}
+    .project-art{aspect-ratio:1.38;background:#0d0d0d;margin:10px;border-radius:14px;overflow:hidden;position:relative;color:white}.project-art img{display:block;width:100%;height:100%;object-fit:cover;object-position:top left;transition:transform .55s var(--ease),filter .55s var(--ease)}.project-art::after{content:"Abrir projeto \2197";position:absolute;right:13px;bottom:13px;padding:9px 12px;border-radius:999px;background:rgba(5,5,5,.78);border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(10px);color:white;font-size:.62rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;transform:translateY(8px);opacity:0;transition:opacity .3s var(--ease),transform .3s var(--ease)}.project-card:hover .project-art img{transform:scale(1.035);filter:brightness(.78)}.project-card:hover .project-art::after,.project-card:focus-visible .project-art::after{opacity:1;transform:none}.project-meta{display:flex;justify-content:space-between;gap:12px;padding:13px 20px 22px}.project-meta h3{font-size:1rem;letter-spacing:-.025em}.project-meta span{font-size:.68rem;color:#777;text-transform:uppercase;letter-spacing:.1em;padding-top:3px}
+    .art-nav{display:flex;justify-content:space-between;align-items:center;font-size:.4rem;font-weight:800}.art-dot{width:14px;height:14px;background:#111;border-radius:50%}.art-btn{height:11px;width:44px;border-radius:20px;background:#111}
+    .art-title{font:800 1.5rem/.94 "Manrope";letter-spacing:-.07em;margin-top:32px;max-width:210px}.art-copy{font-size:.43rem;color:#777;margin-top:10px;max-width:140px}.art-cta{display:block;width:58px;height:15px;border-radius:20px;background:var(--red);margin-top:12px}
+    .fashion::after{content:"";position:absolute;width:120px;height:172px;right:6px;bottom:-15px;border-radius:70px 70px 12px 12px;background:linear-gradient(140deg,#dadada,#111);filter:grayscale(1);transform:rotate(8deg)}
+    .restaurant{background:#180f0b;color:#fff}.restaurant .art-dot,.restaurant .art-btn{background:#ff623d}.restaurant::after{content:"NO.\A 08";white-space:pre;position:absolute;right:17px;bottom:8px;font:800 3.2rem/.77 "Manrope";color:#ff623d;text-align:right}
+    .law{background:#e5e1d8}.law::after{content:"JM";position:absolute;right:17px;bottom:-18px;font:800 7rem "Manrope";letter-spacing:-.12em;color:#151515}.law .art-cta{background:#151515}
+    .fitness{background:#ff4a3e;color:#111}.fitness .art-cta,.fitness .art-dot,.fitness .art-btn{background:#111}.fitness::after{content:"\2197";position:absolute;right:8px;bottom:-33px;font:500 10rem "Manrope";line-height:1;color:rgba(0,0,0,.18)}
+    .realty{background:#ece9e2}.realty::before{content:"";position:absolute;left:0;right:0;bottom:0;height:48%;background:linear-gradient(150deg,transparent 37%,#222 38% 52%,transparent 53%),linear-gradient(28deg,transparent 35%,#777 36% 54%,transparent 55%);opacity:.9}.realty .art-title,.realty .art-copy,.realty .art-cta{position:relative;z-index:2}
+    .barber{background:#101010;color:#fff}.barber::after{content:"B";position:absolute;right:8px;bottom:-54px;font:800 12rem "Manrope";color:#232323}.barber .art-title,.barber .art-copy,.barber .art-cta{position:relative;z-index:2}.barber .art-copy{color:#888}
+    .process{background:var(--paper);color:#111;padding:138px 0}.process-head{text-align:center;max-width:800px;margin:0 auto 65px}.process-head .eyebrow{margin-bottom:22px}.process-head p{color:#777;margin-top:20px}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.step{min-height:470px;background:white;border:1px solid rgba(0,0,0,.06);border-radius:24px;padding:25px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}.step-num{font:700 .75rem "Manrope";color:var(--red);letter-spacing:.12em}.step-visual{height:230px;display:grid;place-items:center;position:relative}.step h3{font-size:1.5rem;margin-bottom:10px}.step p{color:#777;font-size:.9rem;line-height:1.55}
+    .calendar{width:210px;border:1px solid #ddd;border-radius:14px;padding:13px;box-shadow:0 17px 30px rgba(0,0,0,.08);transform:rotate(-4deg)}.calendar-top{display:flex;justify-content:space-between;font-size:.58rem;font-weight:700;margin-bottom:12px}.calendar-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}.calendar-grid i{height:18px;border-radius:5px;background:#f1f1f1}.calendar-grid i:nth-child(18){background:var(--red);box-shadow:0 0 0 4px rgba(255,59,47,.12)}
+    .compass{width:142px;height:142px;border:1px solid #ddd;border-radius:50%;position:relative;box-shadow:0 18px 35px rgba(0,0,0,.07)}.compass::before{content:"";position:absolute;left:50%;top:18px;border-left:14px solid transparent;border-right:14px solid transparent;border-bottom:56px solid var(--red);transform:translateX(-50%)}.compass::after{content:"";position:absolute;left:50%;bottom:18px;border-left:10px solid transparent;border-right:10px solid transparent;border-top:46px solid #222;transform:translateX(-50%)}
+    .launch-bars{height:185px;display:flex;align-items:end;gap:11px}.launch-bars i{width:38px;border-radius:9px 9px 3px 3px;background:#ececec;position:relative;overflow:hidden}.launch-bars i::after{content:"";position:absolute;inset:100% 0 0;background:var(--red);transition:inset 1s var(--ease)}.is-visible .launch-bars i:nth-child(1)::after{inset:70% 0 0}.is-visible .launch-bars i:nth-child(2)::after{inset:48% 0 0}.is-visible .launch-bars i:nth-child(3)::after{inset:24% 0 0}.is-visible .launch-bars i:nth-child(4)::after{inset:0}.launch-bars i:nth-child(1){height:30%}.launch-bars i:nth-child(2){height:49%}.launch-bars i:nth-child(3){height:72%}.launch-bars i:nth-child(4){height:100%}
+    .bonus{padding:138px 0;background:#050505;position:relative;overflow:hidden}.bonus::before{content:"LOCAL";position:absolute;font:800 clamp(9rem,25vw,24rem)/1 "Manrope";letter-spacing:-.1em;color:rgba(255,255,255,.025);right:-4vw;top:2vw}.bonus-grid{display:grid;grid-template-columns:.98fr 1.02fr;gap:clamp(52px,6vw,86px);align-items:center;position:relative}.bonus-media{position:relative;margin:0;border-radius:32px;overflow:hidden;border:1px solid rgba(255,255,255,.12);background:#111;box-shadow:0 42px 100px rgba(0,0,0,.48),0 0 70px rgba(255,59,47,.08)}.bonus-media::after{content:"";position:absolute;inset:42% 0 0;background:linear-gradient(transparent,rgba(0,0,0,.92));pointer-events:none}.bonus-media img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover}.bonus-image-label{position:absolute;z-index:2;left:26px;right:26px;bottom:24px;display:flex;align-items:end;justify-content:space-between;gap:18px}.bonus-image-label small{color:#ff756d;font-size:.61rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.bonus-image-label b{max-width:240px;text-align:right;font:700 clamp(1rem,1.7vw,1.35rem)/1.1 "Manrope";letter-spacing:-.035em}.nfc-beacon{position:absolute;z-index:3;left:29%;top:59%;width:13px;height:13px;border-radius:50%;background:var(--red2);box-shadow:0 0 0 0 rgba(255,59,47,.6);animation:nfc-ping 1.8s ease-out infinite}.nfc-beacon::after{content:"NFC";position:absolute;left:20px;top:-6px;background:rgba(5,5,5,.78);border:1px solid rgba(255,255,255,.16);border-radius:999px;padding:6px 8px;color:white;font:800 .53rem "Manrope";letter-spacing:.08em;backdrop-filter:blur(8px)}
+    .bonus .eyebrow{color:#ccc}.bonus h2{margin:24px 0}.bonus h2 span{color:var(--red)}.bonus-copy>p{color:#969696;line-height:1.7;margin-bottom:18px}.bonus-copy strong{color:white}.bonus-deliverables{display:grid;gap:10px;margin:28px 0 24px}.bonus-item{display:grid;grid-template-columns:52px 1fr;gap:15px;align-items:start;border:1px solid rgba(255,255,255,.1);background:linear-gradient(135deg,#151515,#0d0d0d);border-radius:16px;padding:17px;transition:transform .3s var(--ease),border-color .3s}.bonus-item:hover{transform:translateX(5px);border-color:rgba(255,59,47,.4)}.bonus-icon{width:52px;height:52px;border-radius:14px;background:rgba(255,59,47,.12);border:1px solid rgba(255,59,47,.25);display:grid;place-items:center;color:#ff665c;font:800 .69rem "Manrope";letter-spacing:-.02em}.bonus-item h3{font-size:.96rem;margin:2px 0 6px}.bonus-item p{color:#818181;font-size:.8rem;line-height:1.48}.bonus-features{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 28px}.bonus-features span{border:1px solid rgba(255,255,255,.1);background:#0d0d0d;border-radius:999px;padding:9px 11px;font-size:.68rem;color:#929292}.bonus-features span::before{content:"\2713";color:var(--red);font-weight:800;margin-right:6px}
+    .closing{background:var(--paper);padding:138px 0;color:#111}.closing-card{background:#0a0a0a;color:white;border-radius:32px;padding:clamp(38px,7vw,90px);text-align:center;position:relative;overflow:hidden}.closing-card::before,.closing-card::after{content:"";position:absolute;border:1px solid rgba(255,59,47,.25);border-radius:50%}.closing-card::before{width:430px;height:430px;left:-280px;top:-210px}.closing-card::after{width:500px;height:500px;right:-330px;bottom:-340px}.closing h2{max-width:900px;margin:0 auto 25px}.closing p{color:#919191;max-width:680px;margin:0 auto 35px;line-height:1.7}.closing strong{color:white}.closing .button{position:relative;z-index:2}.closing .micro{margin:14px auto 0;max-width:none}
+    .story{background:#050505;color:white;padding:138px 0;position:relative;overflow:hidden}.story::before{content:"";position:absolute;width:760px;height:760px;border-radius:50%;background:radial-gradient(circle,rgba(255,59,47,.1),transparent 68%);left:-430px;bottom:-260px;pointer-events:none}.story-grid{display:grid;grid-template-columns:minmax(340px,.88fr) minmax(0,1.12fr);gap:clamp(48px,7vw,100px);align-items:start;position:relative}.story-media{position:sticky;top:28px;aspect-ratio:3/4;border-radius:30px;overflow:hidden;background:#151515;border:1px solid rgba(255,255,255,.11);box-shadow:0 38px 90px rgba(0,0,0,.45)}.story-media::after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,rgba(0,0,0,.88));pointer-events:none}.story-media img{display:block;width:100%;height:100%;object-fit:cover}.story-stat{position:absolute;z-index:2;left:28px;right:28px;bottom:26px;display:flex;align-items:end;justify-content:space-between;gap:18px}.story-stat b{font:700 clamp(3rem,6vw,5.6rem)/.82 "Manrope";letter-spacing:-.08em;color:white}.story-stat span{max-width:145px;text-align:right;color:#c0c0c0;font-size:.72rem;line-height:1.35;text-transform:uppercase;letter-spacing:.1em}.story-copy .eyebrow{margin-bottom:26px}.story h2{font-size:clamp(2.8rem,5vw,5rem);line-height:.97;font-weight:700;margin-bottom:34px}.story h2 span{color:var(--red)}.story-copy>p{color:#9b9b9b;font-size:clamp(.96rem,1.2vw,1.06rem);line-height:1.75;margin-bottom:20px}.story-copy>p strong{color:white}.story-manifest{background:linear-gradient(145deg,#ff554a,#d91f15);border-radius:22px;padding:30px;margin:34px 0;color:white;box-shadow:0 22px 60px rgba(255,59,47,.16)}.story-manifest small{display:block;font-size:.67rem;text-transform:uppercase;letter-spacing:.17em;font-weight:700;margin-bottom:16px;color:rgba(255,255,255,.7)}.story-manifest p{font:700 clamp(1.35rem,2.5vw,2rem)/1.18 "Manrope";letter-spacing:-.045em}.story-foot{display:flex;align-items:center;gap:14px;margin-top:34px;padding-top:26px;border-top:1px solid rgba(255,255,255,.1);color:#777;font-size:.75rem;text-transform:uppercase;letter-spacing:.12em}.story-foot::before{content:"CS";width:42px;height:42px;border-radius:13px;background:var(--red);color:white;display:grid;place-items:center;font:800 .72rem "Manrope";letter-spacing:-.03em;transform:rotate(-6deg)}
+    footer{background:#050505;color:white;padding:74px 0 38px;border-top:1px solid rgba(255,255,255,.08)}.footer-grid{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:50px;padding-bottom:60px}.footer-brand p{color:#777;max-width:350px;margin-top:18px;font-size:.88rem}.footer-col h3{font-size:.82rem;margin-bottom:16px;letter-spacing:-.01em}.footer-col a{display:block;text-decoration:none;color:#7d7d7d;font-size:.84rem;margin:9px 0}.footer-col a:hover{color:white}.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:25px;display:flex;justify-content:space-between;color:#5e5e5e;font-size:.72rem}
+    .mobile-cta{display:none;position:fixed;z-index:60;left:12px;right:12px;bottom:max(12px,env(safe-area-inset-bottom));background:var(--red);color:white;text-decoration:none;border-radius:999px;padding:15px;text-align:center;font-weight:700;box-shadow:0 18px 40px rgba(0,0,0,.45);opacity:0;visibility:hidden;pointer-events:none;transform:translateY(24px);transition:opacity .32s var(--ease),transform .32s var(--ease),visibility .32s}.mobile-cta.is-visible{opacity:1;visibility:visible;pointer-events:auto;transform:none}
+    .js .reveal{opacity:0;transform:translateY(34px);transition:opacity .75s var(--ease),transform .75s var(--ease)}.js .reveal.is-visible{opacity:1;transform:none}
+    @keyframes spin{to{transform:rotate(1turn)}}
+    @keyframes bar-shine{to{transform:translateX(110%)}}
+    @keyframes slot-pulse{70%,100%{box-shadow:0 0 0 8px rgba(255,59,47,0)}}
+    @keyframes nfc-ping{70%,100%{box-shadow:0 0 0 18px rgba(255,59,47,0)}}
+    @keyframes float{0%,100%{transform:translateY(0) rotateY(-11deg) rotateX(7deg) rotateZ(2deg)}50%{transform:translateY(-16px) rotateY(-7deg) rotateX(5deg) rotateZ(1deg)}}
+    @media(max-width:900px){.hero-grid{grid-template-columns:1fr;text-align:center}.hero-copy>p{margin:auto}.hero-actions{justify-content:center}.stage{min-height:470px}.pain-head{grid-template-columns:1fr;gap:20px}.pain-list{grid-template-columns:repeat(2,1fr)}.pain-list li:last-child{grid-column:1/-1;min-height:180px}.proofgrid{grid-template-columns:1fr repeat(3,1fr)}}
+    @media(max-width:650px){.shell{width:min(100% - 28px,1180px)}.nav-wrap{top:12px}.nav{height:58px;padding:0 8px 0 17px}.nav-links>a:not(.nav-cta){display:none}.nav-cta{padding:10px 14px;font-size:.7rem}.hero{padding-top:108px;padding-bottom:56px;min-height:auto}.hero-grid{gap:38px}.trust{font-size:.66rem}h1{font-size:clamp(2.65rem,13.5vw,4.4rem);margin:25px 0 21px}.hero-copy>p{font-size:.94rem}.hero-actions{flex-direction:column;margin-top:27px;gap:12px}.button{width:100%}.micro{max-width:none}.stage{min-height:400px}.stage-orbit{width:330px;height:330px}.site-card{width:280px}.float-chip{font-size:.64rem;padding:10px 12px}.chip-a{left:0}.chip-b{right:0}.proofgrid{grid-template-columns:1fr}.proof-item{padding:19px 0;min-height:96px;border-left:0;border-top:1px solid var(--line)}.proof-intro{display:none}.proof-copy{align-items:center}.proof-item b{font-size:1.35rem}.proof-label{font-size:.68rem;max-width:155px}.progress-track{height:4px}.pain{padding:86px 0}.pain-head{margin-bottom:38px}.pain h2{font-size:2.7rem}.pain-head p{font-size:.94rem}.pain-list{grid-template-columns:1fr}.pain-list li,.pain-list li:last-child{grid-column:auto;min-height:190px}.pain-list span{font-size:.91rem}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition:none!important}}
+    @media(max-width:900px){.section-heading,.bonus-grid{grid-template-columns:1fr;gap:28px}.service-card,.service-card.wide{grid-column:span 6}.project-grid,.steps{grid-template-columns:repeat(2,1fr)}.steps .step:last-child{grid-column:1/-1}.story-grid{grid-template-columns:1fr;gap:52px}.story-media{position:relative;top:auto;width:min(620px,100%);margin-inline:auto}.footer-grid{grid-template-columns:1fr 1fr}.footer-brand{grid-column:1/-1}}
+    @media(max-width:650px){.section-dark,.portfolio,.process,.bonus,.closing,.story{padding:88px 0}.section-heading{margin-bottom:40px}.section-heading h2,.portfolio-head h2,.process-head h2,.bonus h2,.closing h2,.story h2{font-size:2.7rem}.bento{display:block}.service-card,.service-card.wide{min-height:280px;margin-bottom:12px}.service-card.wide{min-height:330px}.mini-browser{width:50%}.project-grid,.steps{grid-template-columns:1fr}.steps .step:last-child{grid-column:auto}.project-card{border-radius:18px}.project-art{aspect-ratio:1.45}.project-art::after{opacity:1;transform:none;font-size:.57rem;padding:8px 10px}.process-head,.portfolio-head{margin-bottom:42px}.step{min-height:430px}.bonus-grid{gap:42px}.bonus-media{border-radius:22px}.bonus-image-label{left:18px;right:18px;bottom:16px;display:block}.bonus-image-label b{display:block;text-align:left;margin-top:7px;max-width:210px}.nfc-beacon{left:27%;top:56%}.bonus-item{grid-template-columns:46px 1fr;padding:15px}.bonus-icon{width:46px;height:46px;border-radius:12px}.bonus-features{gap:6px}.closing-card{border-radius:24px}.story-grid{gap:42px}.story-media{border-radius:22px}.story-stat{left:18px;right:18px;bottom:18px}.story-stat b{font-size:3.65rem}.story-stat span{font-size:.61rem;max-width:110px}.story-manifest{padding:24px;border-radius:18px}.story-copy>p{font-size:.96rem;line-height:1.68}.footer-grid{grid-template-columns:1fr 1fr;gap:36px 20px}.footer-brand{grid-column:1/-1}.footer-bottom{flex-direction:column;gap:8px;padding-bottom:60px}.mobile-cta{display:block}}
+    .bonus h2{font-size:clamp(2.5rem,4vw,4.3rem);line-height:.97}
+    @media(max-width:650px){.pain-list li,.pain-list li:last-child{min-height:300px}.pain-visual{height:122px;margin:16px 0 22px}}
+    .bonus-grid{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(44px,5vw,76px)}
+    .bonus-media{width:min(100%,470px);aspect-ratio:1.25;justify-self:center;display:grid;place-items:center;padding:24px;border-radius:26px;background:radial-gradient(circle at 44% 48%,rgba(255,59,47,.16),transparent 62%),#0d0d0d;box-shadow:0 32px 74px rgba(0,0,0,.42),0 0 48px rgba(255,59,47,.06)}.bonus-media::after{inset:auto 0 0;height:43%;background:linear-gradient(transparent,rgba(0,0,0,.72))}.bonus-media img{position:relative;z-index:1;width:100%;height:100%;max-height:370px;aspect-ratio:auto;object-fit:contain;object-position:center}.nfc-beacon{display:none}.bonus-product-badge{position:absolute;z-index:3;left:16px;top:16px;padding:8px 10px;border-radius:999px;background:var(--red);color:white;font:800 .57rem "Manrope";letter-spacing:.09em;text-transform:uppercase;box-shadow:0 10px 22px rgba(255,59,47,.24)}.bonus-image-label{z-index:3;left:20px;right:20px;bottom:17px;align-items:end}.bonus-image-label small{color:#ff776f}.bonus-image-label b{font-size:clamp(.9rem,1.35vw,1.12rem);max-width:210px}
+    @media(max-width:900px){.bonus-grid{grid-template-columns:1fr;gap:38px}.bonus-media{width:min(100%,420px)}}
+    @media(max-width:650px){.bonus-media{width:min(100%,310px);aspect-ratio:1.24;padding:13px;border-radius:20px}.bonus-media img{max-height:235px}.bonus-product-badge{left:11px;top:11px;padding:7px 9px;font-size:.51rem}.bonus-image-label{left:14px;right:14px;bottom:12px;display:block}.bonus-image-label small{display:block}.bonus-image-label b{display:block;text-align:left;margin-top:5px;max-width:185px;font-size:.9rem}}
+  </style>
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav shell" aria-label="Navegação principal">
+      <a href="#inicio" class="brand"><span class="brand-mark" aria-hidden="true"></span>Copy Sync</a>
+      <div class="nav-links"><a href="#diferenciais">Diferenciais</a><a href="#portfolio">Projetos</a><a href="#processo">Processo</a><a class="nav-cta" href="https://wa.me/5565996489522?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20or%C3%A7amento%20para%20uma%20p%C3%A1gina%20da%20web%20para%20o%20meu%20neg%C3%B3cio!%F0%9F%92%A5" target="_blank" rel="noopener">Pedir orçamento</a></div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-grid shell">
+        <div class="hero-copy">
+          <div class="trust"><span class="faces"><span class="face">CS</span><span class="face">JD</span><span class="face">MK</span></span><span class="pulse"></span>Projetos disponíveis em agosto</div>
+          <h1>Seu concorrente está <em>roubando</em> seus clientes.</h1>
+          <p>Enquanto você perde vendas com um site amador — ou pior, <strong>sem site nenhum</strong> — o negócio do outro lado da rua está capturando cada cliente que pesquisa no Google. <strong>A Copy Sync constrói sites que convertem visitantes em clientes pagantes.</strong></p>
+          <div class="hero-actions">
+            <a class="button" href="https://wa.me/5565996489522?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20or%C3%A7amento%20para%20uma%20p%C3%A1gina%20da%20web%20para%20o%20meu%20neg%C3%B3cio!%F0%9F%92%A5" target="_blank" rel="noopener">Quero meu orçamento</a>
+            <span class="micro">Resposta em até 2 horas<br>Orçamento sem compromisso</span>
+          </div>
+        </div>
+        <div class="stage" aria-label="Prévia animada de um site criado pela Copy Sync">
+          <div class="stage-orbit"></div>
+          <div class="float-chip chip-a"><span>Conversão</span><strong>+184%</strong></div>
+          <div class="site-card">
+            <div class="site-screen">
+              <div class="screen-nav"><span class="screen-logo"><i></i>NORTH/CO</span><span class="screen-pill"></span></div>
+              <div class="screen-hero"><span class="screen-kicker">Design que dá resultado</span><div class="screen-title">Seu próximo site precisa <span>vender.</span></div><div class="screen-text">Estratégia, copy e design reunidos em uma experiência impossível de ignorar.</div><span class="screen-button">COMEÇAR AGORA</span></div>
+              <div class="screen-grid"><div class="screen-box"><small>Resultado real</small><b>3.8x ROI</b><div class="screen-chart"><i></i><i></i><i></i><i></i></div></div><div class="screen-box light"><small>Velocidade</small><b>0.8s</b></div></div>
+            </div>
+          </div>
+          <div class="float-chip chip-b"><span>Performance</span><strong>98/100</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proofbar animated-stats" aria-label="Principais números">
+      <div class="proofgrid shell">
+        <div class="proof-item proof-intro">Sites que trabalham por você</div>
+        <div class="proof-item"><div class="proof-copy"><b>85%</b><span class="proof-label">dos acessos no celular</span></div><div class="progress-track" aria-hidden="true"><span class="progress-fill" style="--fill:85%;--delay:.05s"></span></div></div>
+        <div class="proof-item"><div class="proof-copy"><b>2–5 dias</b><span class="proof-label">para entrar no ar</span></div><div class="progress-track" aria-hidden="true"><span class="progress-fill" style="--fill:62%;--delay:.18s"></span></div></div>
+        <div class="proof-item proof-urgent"><div class="proof-copy"><b>Restam só 2</b><span class="proof-label"><span class="proof-alert">Quase esgotado</span>de 10 vagas do mês</span></div><div class="progress-track" aria-hidden="true"><span class="progress-fill" style="--fill:80%;--delay:.31s"></span></div></div>
+      </div>
+    </section>
+
+    <section class="pain" id="diferenciais">
+      <div class="shell">
+        <span class="eyebrow">A verdade que ninguém te conta</span>
+        <div class="pain-head"><h2>Se não aparece no Google, não existe.</h2><p>O cliente já está procurando o que você vende. A pergunta é: ele vai encontrar uma empresa profissional ou cair direto no colo do concorrente?</p></div>
+        <ul class="pain-list">
+          <li class="reveal"><div class="pain-visual pain-search" aria-hidden="true"><i></i></div><span class="pain-copy">Um cliente abre o Google e <strong>encontra seu concorrente</strong>. Seu nome não aparece. Você perde uma venda sem saber que ela existia.</span></li>
+          <li class="reveal"><div class="pain-visual pain-broken" aria-hidden="true"><i></i></div><span class="pain-copy">O site que seu “sobrinho” fez em 2019 está <strong>espantando clientes</strong>. Layout quebrado no celular, aba fechada em 3 segundos.</span></li>
+          <li class="reveal"><div class="pain-visual pain-social" aria-hidden="true"><i>R$ 0</i></div><span class="pain-copy">Você posta todo dia e <strong>as vendas continuam as mesmas</strong>. Rede social sem site é vitrine sem loja.</span></li>
+          <li class="reveal"><div class="pain-visual pain-compare" aria-hidden="true"><i>→</i></div><span class="pain-copy">Seu concorrente passa imagem de empresa grande. Seu site feio passa imagem de amador. <strong>O cliente escolhe quem parece profissional.</strong></span></li>
+          <li class="reveal"><div class="pain-visual pain-money" aria-hidden="true"><i></i></div><span class="pain-copy">Cada dia sem um site que converte é <strong>dinheiro saindo do seu bolso</strong> e entrando no caixa de quem investiu.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-dark">
+      <div class="shell">
+        <span class="eyebrow">O que nos torna diferentes</span>
+        <div class="section-heading reveal">
+          <h2>Não fazemos sites bonitos. Fazemos <span style="color:var(--red)">máquinas de venda.</span></h2>
+          <p>A maioria das agências te entrega um template com seu logo colado em cima. Nós não. <strong>Cada pixel é projetado com uma única obsessão: fazer o visitante virar cliente.</strong></p>
+        </div>
+        <div class="bento">
+          <article class="service-card wide reveal">
+            <div class="service-top"><span class="service-index">01 / DESIGN</span><span class="service-symbol" aria-hidden="true">↗</span></div>
+            <div><h3>Design de alta conversão</h3><p>Layouts testados e validados em dezenas de nichos. Cada seção, botão e cor guia o visitante até a ação. Sem achismo, sem “eu acho bonito”. Dados.</p></div>
+            <div class="mini-browser" aria-hidden="true"><div class="mini-browser-top"><i></i><i></i><i></i></div><div class="mini-browser-body"><div class="mini-line redline"></div><div class="mini-line"></div><div class="mini-line"></div><div class="mini-cols"><i></i><i></i></div></div></div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-top"><span class="service-index">02 / COPY</span><span class="service-symbol" aria-hidden="true">Aa</span></div>
+            <div><h3>Copy que vende</h3><p>Texto escrito por copywriters. Ataca a dor, apresenta a solução e empurra para a ação. Nada de texto genérico ou “Lorem ipsum”.</p></div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-top"><span class="service-index">03 / MOBILE</span><span class="service-symbol" aria-hidden="true">▯</span></div>
+            <div><h3>Mobile-first. Sempre.</h3><p>85% dos clientes acessam pelo celular. Se o site não fica perfeito numa tela de 6 polegadas, você está jogando dinheiro fora. O nosso fica impecável.</p></div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-top"><span class="service-index">04 / SEO</span><span class="service-symbol" aria-hidden="true">◎</span></div>
+            <div class="score-ring" aria-label="Pontuação de performance 98"></div>
+            <div><h3>SEO embutido</h3><p>Estrutura, velocidade, meta tags e base técnica já configuradas para o Google entender e encontrar seu negócio.</p></div>
+          </article>
+          <article class="service-card red-card reveal">
+            <div class="service-top"><span class="service-index">05 / ENTREGA</span><span class="service-symbol" aria-hidden="true">⚡</span></div>
+            <div class="delivery-visual" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+            <div><h3>Pronto em 7 a 15 dias</h3><p>Nada de esperar três meses. Enquanto a concorrência ainda está “pensando”, você já está no ar e vendendo.</p></div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-top"><span class="service-index">06 / SUPORTE</span><span class="service-symbol" aria-hidden="true">∞</span></div>
+            <div><h3>Suporte real</h3><p>Não te largamos depois da entrega. Atendimento direto no WhatsApp para ajustes, atualizações e dúvidas. Seu site evolui com o negócio.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="shell">
+        <div class="portfolio-head reveal"><span class="eyebrow">Projetos</span><h2>Trabalho que fala por si.</h2><p>Cada projeto é construído com a mesma obsessão: transformar visitante em cliente. Clique em qualquer preview para navegar pelo site completo.</p></div>
+        <div class="project-grid">
+          <a class="project-card reveal" href="https://avolin-ecommerce-website-template.webflow.io/" target="_blank" rel="noopener noreferrer" aria-label="Abrir o projeto de e-commerce Avolin em uma nova aba"><div class="project-art"><img src="/portfolio/ecommerce.png" alt="Prévia do site Avolin para e-commerce" width="1265" height="712" loading="lazy" decoding="async"></div><div class="project-meta"><h3>Loja Premium</h3><span>E-commerce ↗</span></div></a>
+          <a class="project-card reveal" href="https://yaamy-templates.webflow.io/" target="_blank" rel="noopener noreferrer" aria-label="Abrir o projeto de restaurante Yaamy em uma nova aba"><div class="project-art"><img src="/portfolio/restaurante.png" alt="Prévia do site Yaamy para restaurante" width="1265" height="712" loading="lazy" decoding="async"></div><div class="project-meta"><h3>Bistrô Artesanal</h3><span>Restaurante ↗</span></div></a>
+          <a class="project-card reveal" href="https://lawtide-webflow-template.webflow.io/" target="_blank" rel="noopener noreferrer" aria-label="Abrir o projeto de advocacia Lawtide em uma nova aba"><div class="project-art"><img src="/portfolio/advocacia.png" alt="Prévia do site Lawtide para advocacia" width="1265" height="712" loading="lazy" decoding="async"></div><div class="project-meta"><h3>JM Advogados</h3><span>Advocacia ↗</span></div></a>
+          <a class="project-card reveal" href="https://fitizo-template.webflow.io/" target="_blank" rel="noopener noreferrer" aria-label="Abrir o projeto CrossFit Fitizo em uma nova aba"><div class="project-art"><img src="/portfolio/crossfit.png" alt="Prévia do site Fitizo para CrossFit" width="1265" height="712" loading="lazy" decoding="async"></div><div class="project-meta"><h3>CrossFit Elite</h3><span>Fitness ↗</span></div></a>
+          <a class="project-card reveal" href="https://housend.webflow.io/" target="_blank" rel="noopener noreferrer" aria-label="Abrir o projeto de imóveis Housend em uma nova aba"><div class="project-art"><img src="/portfolio/imoveis.png" alt="Prévia do site Housend para imóveis" width="1265" height="712" loading="lazy" decoding="async"></div><div class="project-meta"><h3>Imóveis Capital</h3><span>Imóveis ↗</span></div></a>
+          <a class="project-card reveal" href="https://beardtemplate.webflow.io/" target="_blank" rel="noopener noreferrer" aria-label="Abrir o projeto Barber House em uma nova aba"><div class="project-art"><img src="/portfolio/barber-house.png" alt="Prévia do site Beard X para barbearia" width="1265" height="712" loading="lazy" decoding="async"></div><div class="project-meta"><h3>Barber House</h3><span>Barbearia ↗</span></div></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="process" id="processo">
+      <div class="shell">
+        <div class="process-head reveal"><span class="eyebrow">Como funciona</span><h2>Trabalhar com a gente é simples.</h2><p>Três etapas claras. Zero novela. Seu projeto sai da ideia e entra no ar rápido.</p></div>
+        <div class="steps">
+          <article class="step reveal"><span class="step-num">01 / DIAGNÓSTICO</span><div class="step-visual"><div class="calendar" aria-hidden="true"><div class="calendar-top"><span>AGOSTO</span><span>2026</span></div><div class="calendar-grid"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div><div><h3>Entendemos o negócio</h3><p>Você conta sua meta, seu público e o que precisa vender. Nós mapeamos a mensagem e o caminho até a conversão.</p></div></article>
+          <article class="step reveal"><span class="step-num">02 / ESTRATÉGIA</span><div class="step-visual"><div class="compass" aria-hidden="true"></div></div><div><h3>Construímos o mapa</h3><p>Definimos arquitetura, copy e direção visual antes de montar cada detalhe da experiência.</p></div></article>
+          <article class="step reveal"><span class="step-num">03 / LANÇAMENTO</span><div class="step-visual"><div class="launch-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div><div><h3>Colocamos no ar</h3><p>Seu site entra no ar rápido, responsivo, persuasivo e pronto para transformar tráfego em oportunidade.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="bonus" id="google-meu-negocio">
+      <div class="bonus-grid shell">
+        <figure class="bonus-media reveal">
+          <img src="/google-nfc-card.png" alt="Cartão físico NFC para avaliações do Google com celular sendo aproximado" width="1536" height="1024" loading="lazy" decoding="async">
+          <span class="bonus-product-badge">Cartão físico incluso</span>
+          <figcaption class="bonus-image-label"><small>Sem abrir a câmera</small><b>Apenas aproxime o celular.</b></figcaption>
+        </figure>
+        <div class="bonus-copy reveal">
+          <span class="eyebrow">Presença local completa</span>
+          <h2>Seu negócio não vai só aparecer no Google. <span>Vai dar vontade de entrar.</span></h2>
+          <p>Todo projeto Copy Sync recebe uma estratégia completa de <strong>Google Meu Negócio</strong> — não uma lista de dicas. A gente entrega seu perfil preparado para ser encontrado, conquistar confiança e transformar pesquisa em visita.</p>
+
+          <div class="bonus-deliverables">
+            <article class="bonus-item"><span class="bonus-icon">NFC</span><div><h3>Você recebe o cartão físico</h3><p>O cartão NFC fica no balcão do seu negócio. O cliente não abre a câmera nem escaneia nada: apenas aproxima o celular e vai direto para a avaliação do Google.</p></div></article>
+            <article class="bonus-item"><span class="bonus-icon">IA</span><div><h3>Vídeo do seu negócio gerado por IA</h3><p>Criamos um vídeo profissional mostrando sua marca, seus produtos e a experiência do local, pronto para o perfil do Google e para suas redes sociais.</p></div></article>
+            <article class="bonus-item"><span class="bonus-icon">360°</span><div><h3>Tour virtual por dentro da sua loja</h3><p>Quem pesquisar pelo celular poderá entrar no ambiente, circular em 360° e conhecer a experiência completa antes mesmo de chegar.</p></div></article>
+          </div>
+
+          <div class="bonus-features"><span>Perfil criado e otimizado</span><span>Google Maps + WhatsApp</span><span>Fotos, posts e palavras-chave</span><span>Monitoramento de concorrentes</span></div>
+          <p><strong>Você não precisa configurar nada.</strong> A Copy Sync monta, otimiza e entrega tudo pronto para começar a gerar visitas.</p>
+          <a class="button" href="https://wa.me/5565996489522?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20or%C3%A7amento%20para%20uma%20p%C3%A1gina%20da%20web%20para%20o%20meu%20neg%C3%B3cio!%F0%9F%92%A5" target="_blank" rel="noopener">Quero tudo isso no meu projeto</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing" id="contato">
+      <div class="shell"><div class="closing-card reveal">
+        <span class="eyebrow">Próximo passo</span>
+        <h2>A cada minuto que você espera, alguém escolhe seu concorrente.</h2>
+        <p><strong>97% das pessoas pesquisam no Google antes de comprar.</strong> Se você não está lá com um site profissional, rápido e persuasivo, você simplesmente não existe para esse cliente. A Copy Sync aceita apenas 10 novos projetos neste mês.</p>
+        <a class="button" href="https://wa.me/5565996489522?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20or%C3%A7amento%20para%20uma%20p%C3%A1gina%20da%20web%20para%20o%20meu%20neg%C3%B3cio!%F0%9F%92%A5" target="_blank" rel="noopener">Garantir minha vaga</a>
+        <div class="micro">Sem compromisso · Orçamento personalizado em minutos</div>
+      </div></div>
+    </section>
+
+    <section class="story" id="nossa-historia">
+      <div class="story-grid shell">
+        <figure class="story-media reveal">
+          <img src="/equipe-copy-sync.png" alt="Equipe da Copy Sync reunida em uma sessão de estratégia" width="1086" height="1448" loading="lazy">
+          <figcaption class="story-stat"><b>1.862</b><span>sites entregues no Brasil, Portugal e Espanha</span></figcaption>
+        </figure>
+
+        <div class="story-copy reveal">
+          <span class="eyebrow">Nossa história</span>
+          <h2>O mercado cobrava R$10 mil. A gente chamou isso pelo nome: <span>barreira.</span></h2>
+
+          <p>Em 2022, eu já faturava alto vendendo nutracêuticos pela internet. E-commerce, funis, tráfego pago — o jogo digital completo.</p>
+
+          <p>Mas toda vez que um amigo dono de restaurante, de barbearia, de escritório me pedia ajuda pra colocar o negócio dele online, a resposta do mercado era sempre a mesma: <strong>R$10.000. Pra um site.</strong></p>
+
+          <p>Dez mil reais pra um pequeno empresário que acorda às 5 da manhã, trabalha 14 horas por dia e mal consegue tirar um pró-labore decente no fim do mês. Isso não é preço. É barreira. É o mercado dizendo na cara do pequeno negócio: <strong>“a internet não é pra você.”</strong></p>
+
+          <p>E eu pensei: isso é uma piada de mau gosto.</p>
+
+          <p>Eu já sabia o que faz um site vender. Já sabia o que faz um visitante clicar. Já sabia a diferença entre um site que enfeita e um site que converte. Então juntei 4 pessoas tão inconformadas quanto eu — e fundamos a <strong>Copy Sync Web Designer</strong> com uma missão simples e agressiva:</p>
+
+          <div class="story-manifest"><small>Nossa missão desde o primeiro dia</small><p>Dar pro pequeno negócio o mesmo site que as grandes marcas têm. Sem cobrar o preço de uma grande marca.</p></div>
+
+          <p>Não era pra ser “mais uma agência.” Era pra ser a resposta que o mercado se recusava a dar.</p>
+
+          <p>De lá pra cá, aquela equipe de 4 virou um time completo. E aquele primeiro projeto virou <strong>1.862 sites entregues</strong> — pra empresas de todo o Brasil, de Portugal e da Espanha. Padaria de bairro, clínica odontológica, escritório de advocacia, loja de roupa, academia, restaurante. Negócios reais, de gente real, que hoje aparecem no Google, capturam clientes e <strong>param de perder venda pra concorrente com site melhor.</strong></p>
+
+          <p>Cada um desses 1.862 projetos é a prova de que site profissional de verdade <strong>não precisa custar uma fortuna.</strong> Precisa custar o justo. E precisa fazer o que tem que fazer: <strong>vender.</strong></p>
+
+          <div class="story-foot">Copy Sync Web Designer · Desde 2022</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell">
+      <div class="footer-grid">
+        <div class="footer-brand"><a href="#inicio" class="brand"><span class="brand-mark" aria-hidden="true"></span>Copy Sync</a><p>Sites que vendem, não que enfeitam. Estratégia, copy e design sob o mesmo teto.</p></div>
+        <div class="footer-col"><h3>Navegação</h3><a href="#diferenciais">Diferenciais</a><a href="#portfolio">Projetos</a><a href="#processo">Processo</a></div>
+        <div class="footer-col"><h3>Fale com a gente</h3><a href="https://wa.me/5565996489522?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20or%C3%A7amento%20para%20uma%20p%C3%A1gina%20da%20web%20para%20o%20meu%20neg%C3%B3cio!%F0%9F%92%A5" target="_blank" rel="noopener">WhatsApp ↗</a><a href="#inicio">Voltar ao topo ↑</a></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 Copy Sync Web Designer</span><span>Todos os direitos reservados</span></div>
+    </div>
+  </footer>
+
+  <a class="mobile-cta" href="https://wa.me/5565996489522?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20or%C3%A7amento%20para%20uma%20p%C3%A1gina%20da%20web%20para%20o%20meu%20neg%C3%B3cio!%F0%9F%92%A5" target="_blank" rel="noopener">Quero meu orçamento ↗</a>
+  <script>
+    document.documentElement.classList.add('js');
+    const items = document.querySelectorAll('.reveal, .animated-stats');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px' });
+    items.forEach((item) => observer.observe(item));
+
+    const mobileCta = document.querySelector('.mobile-cta');
+    const secondSection = document.querySelector('.proofbar');
+    if (mobileCta && secondSection) {
+      const ctaObserver = new IntersectionObserver(([entry]) => {
+        const reachedSecondSection = entry.isIntersecting || entry.boundingClientRect.top < 0;
+        mobileCta.classList.toggle('is-visible', reachedSecondSection);
+      }, { threshold: 0 });
+      ctaObserver.observe(secondSection);
+    }
+  </script>
+</body>
+</html>
